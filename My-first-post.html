@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>Derek's Blog</title>
+    <title>My first post - Derek's Blog</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -9,15 +9,22 @@
 
 
 
-<link rel="canonical" href="">
-        <meta name="author" content="Derek Saw" />
+<link rel="canonical" href="/My-first-post.html">
 
-    <!-- Open Graph tags -->
+        <meta name="author" content="Derek Saw" />
+        <meta name="keywords" content="first,misc" />
+        <meta name="description" content="Short version of my first blog post" />
+
         <meta property="og:site_name" content="Derek's Blog" />
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="Derek's Blog"/>
-        <meta property="og:url" content=""/>
-        <meta property="og:description" content="Derek's Blog"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="My first post"/>
+        <meta property="og:url" content="/My-first-post.html"/>
+        <meta property="og:description" content="Short version of my first blog post"/>
+        <meta property="article:published_time" content="2015-08-02" />
+            <meta property="article:section" content="misc" />
+            <meta property="article:tag" content="first" />
+            <meta property="article:tag" content="misc" />
+            <meta property="article:author" content="Derek Saw" />
 
 
     <!-- Bootstrap -->
@@ -32,6 +39,8 @@
 
 
 
+        <link href="/feeds/misc.atom.xml" type="application/atom+xml" rel="alternate"
+              title="Derek's Blog misc ATOM Feed"/>
 
 </head>
 <body>
@@ -50,7 +59,7 @@ Derek's Blog            </a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                        <li >
+                        <li class="active">
                             <a href="/category/misc.html">Misc</a>
                         </li>
             </ul>
@@ -66,13 +75,42 @@ Derek's Blog            </a>
 <div class="container">
     <div class="row">
         <div class="col-sm-9">
-            <article>
-                <h2><a href="/My-first-post.html">My first post</a></h2>
-                <div class="summary"><p>Short version of my first blog post</p>
-                    <a class="btn btn-default btn-xs" href="/My-first-post.html">more ...</a>
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="/My-first-post.html"
+                       rel="bookmark"
+                       title="Permalink to My first post">
+                        My first post
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2015-08-02T14:51:50+08:00"> Sun 02 August 2015</time>
+    </span>
+
+
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="/tag/first.html">first</a>
+        /
+	<a href="/tag/misc.html">misc</a>
+    
+</footer><!-- /.post-info -->                    </div>
                 </div>
-            </article>
-            <hr/>
+                <p>This is my <strong>first blog post</strong> <em>with</em> <code>pelican</code>.</p>
+            </div>
+            <!-- /.entry-content -->
+        </article>
+    </section>
 
         </div>
         <div class="col-sm-3" id="sidebar">
