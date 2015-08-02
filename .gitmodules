@@ -1,0 +1,3 @@
+[submodule "pelican-bootstrap3"]
+	path = pelican-bootstrap3
+	url = git@github.com:dstl1128/pelican-bootstrap3.git
